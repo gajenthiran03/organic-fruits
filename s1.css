@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  color: green;
+  padding: 20px;
+  font-size: 30px;
+}
+
+body{
+ background-color: #fefae1;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
+footer{
+  color: green;
+  font-size: 1rem;
+}
+
+nav{
+  background-color: green;
+  display: grid;
+  place-items: center;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul a{
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: #fefae1;
+  transition: 0.2s ease-in;
+}
+
+nav ul a:hover{
+  background-color: #fefae1;
+  color: green;
+}
+
+.form{
+  max-width: 340px;
+  padding: 0 26px;
+  margin: 80px auto;
+  background-color: rgba(0, 128, 0, 0.278);
+  border-radius: 15px;
+  align-items: center;
+}
+
+.items{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ padding: 30px 20px;
+ grid-column-gap: 20px;
+ grid-row-gap: 30px;
+}
+
+.item img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.item img:hover{
+  transform: scale(1.04);
+}
+
+.item h4{
+  padding: 5px;
+  text-align: center;
+}
+
+.item button{
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.2s all;
+}
+
+.item button:hover{
+  background-color: red;
+}
+
+.item button:hover{
+  transform: scale(1.08);
+}
