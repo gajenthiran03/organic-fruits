@@ -27,6 +27,12 @@ footer{
   font-size: 1rem;
 }
 
+.head{
+  position: fixed;
+  width: 100%;
+}
+
+
 nav{
   background-color: green;
   display: grid;
