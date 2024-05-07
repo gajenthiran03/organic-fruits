@@ -105,3 +105,22 @@ nav ul a:hover{
 .item button:hover{
   transform: scale(1.08);
 }
+
+#btn{
+  background-color: green;
+  color: white;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 4rem;
+}
+
+#btn:hover{
+  background-color: #fefae1;
+  color: green;
+  transform: scale(1.09);
+}
