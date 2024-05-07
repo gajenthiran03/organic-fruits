@@ -137,11 +137,12 @@ nav ul a:hover{
   width: 100%;
   background: #fff;
   border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.278);
 }
 
 .wrapper .title{
   line-height: 80px;
-  background: #0fc1ca;
+  background: green;
   padding-left: 20px;
   text-align: center;
   color: white;
@@ -170,8 +171,8 @@ nav ul a:hover{
 }
 
 form .row input:focus{
-  border-color: #0fc1ca;
-  box-shadow: inset 0px 0px 2px 2px rgb(26, 172, 188);
+  border-color: green;
+  box-shadow: inset 0px 0px 2px 2px green;
 }
 
 .wrapper form .row  i{
@@ -180,8 +181,8 @@ form .row input:focus{
   height: 100%;
   color: #fff;
   font-size: 18px;
-  background: #0fc1ca;
-  border: 1px solid #0fc1ca;
+  background: green;
+  border: 1px solid rgba(0, 128, 0, 0.278);
   display: flex;
   border-radius: 5px 0 0 5px;
   align-items: center;
@@ -193,13 +194,15 @@ form .row input:focus{
   font-weight: 500;
   font-size: 18px;
   padding-left: 0px;
-  background: #0fc1ca;
-  border: 1px solid #0fc1ca;
+  background: green;
+  border: 1px solid green;
   cursor: pointer;
 }
 
 form .button input:hover{
-  background: #43dde8;
+  background: #fefae1;
+  color: green;
+  transform: scale(1.06);
 }
 
 .wrapper form .pass{
@@ -207,7 +210,7 @@ form .button input:hover{
 }
 
 .wrapper form .pass a{
-  color:#0fc1ca ;
+  color:green;
   font-size: 17px;
   text-decoration: none;
 }
@@ -222,7 +225,7 @@ form .button input:hover{
 }
 
 .wrapper form .signup-link a{
-  color:#0fc1ca ;
+  color:green;
   font-size: 17px;
   text-decoration: none;
 }
