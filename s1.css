@@ -260,3 +260,23 @@ form .button input:hover{
 .wrapper form .signup-link a:hover{
   text-decoration:underline;
 }
+
+
+@media (max-width: 1200px) {
+  html{
+    font-size: 60%;
+  }
+  
+}
+
+@media (max-width: 425px) {
+  html{
+    font-size: 55%;
+  }
+
+  .item img{
+    width: 100%;
+    height: 500px;
+  }
+  
+}
