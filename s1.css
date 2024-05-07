@@ -68,6 +68,7 @@ nav ul a:hover{
 }
 
 
+
 .item img{
   width: 100%;
   height: 500px;
@@ -197,6 +198,7 @@ form .row input:focus{
   background: green;
   border: 1px solid green;
   cursor: pointer;
+  border-radius: 7rem;
 }
 
 form .button input:hover{
