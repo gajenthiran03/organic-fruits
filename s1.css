@@ -36,28 +36,31 @@ footer{
   align-items: center;
   z-index: 100;
   transition: .3s;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  background-color: green;
+  color: #fefae1;
 }
 
 
-nav{
-  background-color: green;
+.head a{
   display: grid;
   place-items: center;
+  text-decoration: none;
+  justify-content: end;
 }
-nav h4{
+.head h4{
   color: #fefae1;
   width: 100%;
   font-size: 1.5rem;
-  justify-content: start;
+  
   padding-left: 9rem;
 }
 
-nav ul{
+.head a{
   list-style-type: none;
 }
 
-nav ul a{
+.head a{
   display: inline-block;
   padding: 20px;
   text-decoration: none;
@@ -65,7 +68,7 @@ nav ul a{
   transition: 0.2s ease-in;
 }
 
-nav ul a:hover{
+.head a:hover{
   background-color: #fefae1;
   color: green;
 }
