@@ -28,7 +28,7 @@ footer{
 }
 
 .head{
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -47,12 +47,12 @@ footer{
   place-items: center;
   text-decoration: none;
   justify-content: end;
+  padding-right: 1rem;
 }
 .head h4{
   color: #fefae1;
   width: 100%;
   font-size: 1.5rem;
-  
   padding-left: 9rem;
 }
 
@@ -62,7 +62,7 @@ footer{
 
 .head a{
   display: inline-block;
-  padding: 20px;
+  padding: 18px;
   text-decoration: none;
   color: #fefae1;
   transition: 0.2s ease-in;
@@ -71,6 +71,10 @@ footer{
 .head a:hover{
   background-color: #fefae1;
   color: green;
+}
+
+.head a i{
+ font-size: 27px; 
 }
 
 #table{
